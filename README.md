@@ -78,7 +78,6 @@ Compiled components will be available in dist folder.
 1. Run `npm run compile` to compile components
 1. Copy the content of corresponding js file in **dist** folder
 1. Paste the content to Code script field of your Custom Code control.
+1. Then you can preview the result
 
 ![image.png](/.attachments/image-ba6cf6b8-8148-4cec-9710-b95782bb336d.png)
-
-1. Then you can preview the result
