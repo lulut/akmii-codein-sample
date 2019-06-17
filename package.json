@@ -1,0 +1,30 @@
+{
+    "name": "akmii-codein-sample",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "dependencies": {
+        "@types/react": "^16.0.40",
+        "@types/react-dom": "^16.0.4",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+        "ts-loader": "^4.1.0",
+        "typescript": "^2.9.2",
+        "webpack": "^4.1.1",
+        "webpack-cli": "^3.2.3"
+    },
+    "scripts": {
+        "compile": "webpack"
+    },
+    "ci": {
+        "version": "8"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "",
+    "license": "MIT"
+}
