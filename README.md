@@ -15,11 +15,13 @@ Please note that Script Execution can also interact with UI by pop-up dialogs or
 
 ## Interface CodeInComp
 To create your custom code script, you need to implement CodeInComp interface.  There are five methods to be implemented optionally.
-`render` is how to render your component
-`execute` is what to do when action performed
-`requiredFields` returns an array of field ids.  These fields and values will be passed by fieldsValues parameter. Re-render will be triggered if any changes to the registered fields.
-`requiredModules` returns an array of module names.  Currently, we support `['moment', 'bizcharts']` [moment](https://momentjs.com/) [bizcharts](https://bizcharts.net/)
-`onLoaded` Event to notify custom page to calculate height for Page Widget with auto height setting
+
+- `render` is how to render your component
+- `execute` is what to do when action performed
+- `requiredFields` returns an array of field ids.  These fields and values will be passed by fieldsValues parameter. Re-render will be triggered if any changes to the registered fields.
+- `requiredModules` returns an array of module names.  Currently, we support `['moment', 'bizcharts']` [moment](https://momentjs.com/) [bizcharts](https://bizcharts.net/)
+- `onLoaded` Event to notify custom page to calculate height for Page Widget with auto height setting
+
 ```
 interface CodeInContext {
     /** Retrieve modules registered in requiredModules */
